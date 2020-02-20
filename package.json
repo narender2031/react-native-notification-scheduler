@@ -1,0 +1,50 @@
+{
+	"name": "react-native-notification-scheduler",
+	"title": "React Native Notification Scheduler",
+	"version": "0.0.1",
+	"description": "react-native OS notifications for IOS and android",
+	"main": "dist/commonjs/index.js",
+	"module": "dist/module/index.js",
+	"react-native": "dist/module/index.js",
+	"types": "dist/typescript/index.d.ts",
+	"scripts": {
+		"prepare": "bob build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/narender2031/react-native-notification-scheduler.git",
+		"baseUrl": "https://github.com/narender2031/react-native-notification-scheduler"
+	},
+	"keywords": [ "react-native", "notifications", "IOS", "Android" ],
+	"author": {
+		"name": "Narender Singh",
+		"email": "narender2031@gemail.com"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/narender2031/react-native-notification-scheduler",
+	"bugs": {
+		"url": "https://github.com/narender2031/react-native-notification-scheduler/issues"
+	},
+	"licenseFilename": "LICENSE",
+	"readmeFilename": "README.md",
+	"peerDependencies": {
+		"react": "^16.8.1",
+		"react-native": ">=0.60.0-rc.0 <1.0.x"
+	},
+	"devDependencies": {
+		"@react-native-community/bob": "^0.9.7",
+		"@types/react-native": "^0.61.16",
+		"react": "^16.9.0",
+		"react-native": "^0.61.5"
+	},
+	"dependencies": {
+		"typescript": "^3.7.5"
+	},
+	"files": [ "dist" ],
+	"@react-native-community/bob": {
+		"source": "src",
+		"output": "dist",
+		"targets": [ "commonjs", "module", "typescript" ]
+	}
+}
